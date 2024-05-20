@@ -1,0 +1,277 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bg {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: blur(2px);
+    margin-left: -37rem;
+}
+
+.p {
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+header {
+    background-image: url(../image/banner.jpg    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* filter: blur(2px); */
+    /* margin-left: -37rem; */
+    /* background-color: #333; */
+    height: 100vh;
+    padding: 1em 0;
+    /* position: fixed; */
+    margin-top: 0%;
+    width: 100%;
+
+}
+
+.logo {
+    float: left;
+    margin-left: -8rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    padding: 10px 5px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    font-size: 25px;
+    margin-left: 8rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: gray;
+}
+
+.main {
+    height: 139rem;
+    width: 93.2rem;
+    background-color: grey;
+}
+
+section {
+    padding: 80px 0;
+}
+
+section h1 {
+    color: #333;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.btn {
+    font-size: 25px;
+    background-color: #060e6c;
+    border: 5px groove;
+    color: white;
+    list-style: none;
+    display: flex;
+}
+
+.btn:hover {
+    background-color: #060e7c;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact_container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #060e6c;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #060e7c;
+}
+
+.book_btn {
+    font-size: 25px;
+    background-color: #060e7c;
+    background-color: ;
+    border: 5px groove;
+    color: white;
+    list-style: none;
+    display: flex;
+}
+
+.book_btn:hover {
+    background-color: #060e5c;
+}
+
+.book_btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#status {
+    margin-top: 10px;
+    color: #333;
+}
+
+.error {
+    color: #ff0000;
+}
+
+.img_sec {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.img1 {
+
+    background-image: url(../image/pic-4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 56vh;
+    border: solid 2px;
+    border-radius: 2rem;
+    margin-left: -8rem;
+    margin-top: 2rem;
+}
+
+.img1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.img2 {
+    background-image: url(../image/pic-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 60vh;
+    border: solid 2px;
+    border-radius: 2rem;
+    margin-left: 19rem;
+    margin-top: -9rem;
+}
+
+.img2:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.img3 {
+    background-image: url(../image/pic-3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 60vh;
+    border: solid 2px;
+    border-radius: 2rem;
+    margin-left: 49rem;
+    margin-top: -9rem;
+}
+
+.img3:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    width: 93.2rem;
+}
+
+.social-media img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.social-media a {
+    display: inline-block;
+}
+
+.social-media {
+    margin-left: 79rem;
+    margin-top: -29px;
+}
+
+.Book_sec {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact_sec {
+    width: 80%;
+    margin: 0 auto;
+}

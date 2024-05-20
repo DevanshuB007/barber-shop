@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Barber Shop</title>
+</head>
+<body>
+    <div class="main">
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="../image/logo.png" alt="Barber Shop Logo">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contactForm">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+        <section id="home">
+            <div class="container">
+                <!-- <div class="bg">
+                    <img src="../image/banner.jpg" alt="">
+                </div> -->
+                <h1>Welcome to Our Barber Shop</h1>
+                <p class="p">Your go-to destination for a fresh look! Barber is a person whose occupation is mainly to cut dress groom style and shave men's and boys' hair. 
+                    A barber's place of work is known as a "barbershop" or a "barber's". Barbershops are also places of social interaction and public discourse.
+                    In some instances, barbershops are also public forums.</p>
+                    <button class="book_btn"><a href="#appointment-form">Book Yor Appoiment</a></button>
+                </div>
+            </section>
+        <section id="services">
+        <div class="img_sec">
+            <h2>Our Services</h2>
+            <!-- Add service details here -->
+            <div class="services_img">
+                <div class="img1"></div>
+                <div class="img2"></div>                
+                <div class="img3"></div>
+            </div>                
+        </div>
+    </section>
+    
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Discover the story behind our barber shop and our dedicated team.</p>
+        </div>
+    </section>
+    
+    <section id="Book">
+        <div class="Book_sec">
+            <section id="appointment-form">
+                <h2>Book Your Appoiment</h2>
+                <form id="appointmentForm">
+                    <label for="clientName">Your Name:</label>
+                    <input type="text" id="clientName" required>
+    
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" id="phoneNumber" required>
+    
+                    <label for="appointmentDate">Appointment Date:</label>
+                    <input type="date" id="appointmentDate" required>
+    
+                    <label for="appointmentTime">Appointment Time:</label>
+                    <input type="time" id="appointmentTime" required>
+    
+                    <button type="submit">Book Appointment</button>
+                </form>
+            </section>
+        </div>
+    </section>
+    
+<div class="contact_sec">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="button" onclick="submitForm()">Submit</button>
+        <p id="status"></p>
+    </form>
+</div>
+    
+    <footer>
+        <div class="footer">
+            <p>&copy; 2024 Barber Shop</p>
+            <div class="social-media">
+                <id="facebook"><img src="../image/fb.png" alt="Facebook"></id=>
+                <id="twitter"><img src="../image/twit.png" alt="Twitter"></id=>
+                <id="instagram"><img src="../image/insta.png" alt="Instagram"></id=>
+                <id="Whatsapp"><img src="../image/wp.png" alt="Whatsapp"></id=>
+            </div>
+        </div>
+    </footer>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
