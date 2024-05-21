@@ -198,11 +198,11 @@ button:hover {
     background-size: cover;
     background-repeat: no-repeat;
     height: 40vh;
-    width: 56vh;
+    width: 60vh;
     border: solid 2px;
     border-radius: 2rem;
     margin-left: -8rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
 }
 
 .img1:hover {
@@ -218,8 +218,8 @@ button:hover {
     width: 60vh;
     border: solid 2px;
     border-radius: 2rem;
-    margin-left: 19rem;
-    margin-top: -9rem;
+    margin-left: 20rem;
+    margin-top: -16rem;
 }
 
 .img2:hover {
@@ -236,7 +236,7 @@ button:hover {
     border: solid 2px;
     border-radius: 2rem;
     margin-left: 49rem;
-    margin-top: -9rem;
+    margin-top: -16rem;
 }
 
 .img3:hover {
